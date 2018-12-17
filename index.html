@@ -5,6 +5,8 @@
     <title>SPA Portfolio using HTML and CSS</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <style type="text/css" href="css/style.css"></style>
 </head>
 <body>
     <aside>
@@ -32,7 +34,7 @@
     </nav>
     <main>
         <header class="home" id="home"><br><br>
-            <h1>I'm Michael</h1>
+            <h1>Hi friends, I'm Michael</h1>
             <h5>Programmer || Developer</h5>
             <img src="images/grouse.jpg" alt="">
         </header>
@@ -94,10 +96,34 @@
                 <img src="" alt="">
                 <h3>Personal</h3>
                 <p>
-                    Android and Unity
+                    Likes to code in various languages from from templates, components, and modules.
                 </p> 
             </div>
         </div>     
-    </section>   
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class="container">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" 
+                style="height:200px"></textarea>
+                <input type="submit" value="message">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <section class="top-bar">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+        </section>
+        <section class="bottom-bar">
+            <p>&copy 2018 | All rights reserved</p>
+        </section>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    /* border-box apply to all parts of the element: content, padding, and borders; */
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    color: orange;
+    font-family: "Oxygen", sans-serif;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.home img {
+    width: 100%;
+    /* filter functions: blur(px), brightness(%), contrast(%), grayscale(%), hue-rotate(deg), invert, opacity, 
+       saturate, sepia, url, initial, inherit */
+    -webkit-filter: grayscale(100%)
+}
