@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SPA Portfolio using HTML and CSS</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    </style>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-Snowfall.js"></script>
 </head>
 <body>
     <aside>
@@ -39,6 +39,12 @@
             <h5>Programmer || Developer</h5>
             <img src="images/grouse.jpg" alt="">
         </header>
+        <script>
+            $.snowfall.start({
+                content: '&#10052', // Snowfall Icon
+                interval: 50 // Snowfall Time
+            });
+        </script>
     </main>
     <section class="about" id="about">
         <h2>About</h2>
@@ -73,7 +79,7 @@
         </div>
     </section> 
     <section class="portfolio" id="portfolio">
-        <h2>Portfolio</h2>
+        <h2>Portfolio Projects</h2>
         <div class="row-halves">
             <div class="col">
                 <img src="images/grouse.jpg" alt="">
